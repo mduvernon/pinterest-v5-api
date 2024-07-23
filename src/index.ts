@@ -20,6 +20,8 @@ export * from './Request'
 
 export * from './Resources'
 
+export * from './Service'
+
 /**
  * @summary Import and call this function to add this module to your API.
  * @param {Object} app The app core instance (container) 
