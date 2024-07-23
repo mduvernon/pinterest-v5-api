@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2020",
+    "lib": [
+      "ESNext",
+      "es5",
+      "es6",
+      "dom"
+    ],
+    "types": [
+      "node"
+    ],
+    "declaration": true,
+    "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "strictPropertyInitialization": false,
+    "alwaysStrict": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noImplicitOverride": false,
+    "useDefineForClassFields": false,
+  },
+  "include": [
+    "src/**/*",
+    "src/**/*.ts",
+    "__test__/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "types",
+    "**/*.spec.ts",
+    "**/*.test.js",
+    "**/*.test.ts",
+    "**/__fixtures__/**/*.*",
+    "**/__mocks__/**/*.*"
+  ],
+}
