@@ -42,5 +42,10 @@
         "reflect-metadata": "0.1.13",
         "undici": "^6.17.0"
     },
-    "devDependencies": {}
+    "devDependencies": {
+        "@types/node": "^20.14.11",
+        "node": "^22.5.1",
+        "tslib": "^2.6.3",
+        "typescript": "^5.5.4"
+    }
 }
